@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(3, 37, 3);
+    overflow-x: hidden;
+}
+
+.divider {
+    background-color: #eee;
+    width: 100%;
+}
+
+
+.container-fluid {
+    padding: 0;
+}
+
+#intro {
+    background-image: url('../images/intro.jpg');
+    height: 400px;
+}
+
+@media (min-width: 576px) {
+    #intro {
+        height: 600px;
+    }
+}
